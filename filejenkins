@@ -1,5 +1,5 @@
 node{
-    stage('SCM'){
+    stage('SCM1'){
         git 'https://github.com/Aakashshinde/java-tomcat-maven-example.git'
     }
     stage('Maven'){
